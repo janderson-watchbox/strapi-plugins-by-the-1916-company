@@ -38,6 +38,21 @@ npm run develop
 
 The plugin appears in the Strapi admin menu as **View Settings Migrator**.
 
+## Configure
+
+Add the plugin to `config/plugin.ts` in your Strapi project. Import `path` at the top of the file, then add the plugin entry to the configuration object:
+
+```ts
+import path from 'path';
+
+export default ({ env }) => ({
+  'view-settings-migrator': {
+    enabled: true,
+    resolve: path.dirname(require.resolve('strapi-plugin-view-settings-migrator/strapi-server')),
+  },
+});
+```
+
 ## Publish
 
 The package is published under the unscoped name `strapi-plugin-view-settings-migrator`. Sign in to npm using the account that should own the package, then publish from this directory:
