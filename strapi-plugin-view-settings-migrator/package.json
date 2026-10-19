@@ -1,6 +1,6 @@
 {
     "name": "strapi-plugin-view-settings-migrator",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Export and import strapi_core_store_settings records from the Strapi admin UI.",
     "license": "MIT",
     "author": "The 1916 Company",
@@ -28,12 +28,12 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Govberg/strapi-plugin-view-settings-migrator.git"
+        "url": "git+https://github.com/janderson-watchbox/strapi-plugins-by-the-1916-company.git"
     },
     "bugs": {
-        "url": "https://github.com/Govberg/strapi-plugin-view-settings-migrator/issues"
+        "url": "https://github.com/janderson-watchbox/strapi-plugins-by-the-1916-company/issues"
     },
-    "homepage": "https://github.com/Govberg/strapi-plugin-view-settings-migrator#readme",
+    "homepage": "https://github.com/janderson-watchbox/strapi-plugins-by-the-1916-company/blob/main/strapi-plugin-view-settings-migrator/README.md",
     "publishConfig": {
         "access": "public"
     },
