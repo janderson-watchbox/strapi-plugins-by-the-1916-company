@@ -38,6 +38,18 @@ npm run develop
 
 The plugin appears in the Strapi admin menu as **View Settings Migrator**.
 
+## Publish
+
+The package is published under the unscoped name `strapi-plugin-view-settings-migrator`. Sign in to npm using the account that should own the package, then publish from this directory:
+
+```bash
+npm login
+npm whoami
+npm publish --access public
+```
+
+Publishing runs `npm run verify` automatically. Increment the `version` in `package.json` before each subsequent release.
+
 ## Usage
 
 1. Open **View Settings Migrator** from the admin sidebar.

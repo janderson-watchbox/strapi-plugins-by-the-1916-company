@@ -1,5 +1,5 @@
 {
-    "name": "@janderson-the-1916-company/strapi-plugin-view-settings-migrator",
+    "name": "strapi-plugin-view-settings-migrator",
     "version": "1.0.0",
     "description": "Export and import strapi_core_store_settings records from the Strapi admin UI.",
     "license": "MIT",
@@ -16,7 +16,8 @@
         "./strapi-server": "./strapi-server.js"
     },
     "scripts": {
-        "verify": "node -e \"require('./strapi-server.js'); console.log('strapi-server.js loaded');\""
+        "verify": "node -e \"require('./strapi-server.js'); console.log('strapi-server.js loaded');\"",
+        "prepublishOnly": "npm run verify"
     },
     "keywords": [
         "strapi",
