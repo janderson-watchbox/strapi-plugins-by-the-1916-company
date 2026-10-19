@@ -1,0 +1,51 @@
+{
+    "name": "@janderson-the-1916-company/strapi-plugin-view-settings-migrator",
+    "version": "1.0.0",
+    "description": "Export and import strapi_core_store_settings records from the Strapi admin UI.",
+    "license": "MIT",
+    "author": "The 1916 Company",
+    "main": "strapi-server.js",
+    "files": [
+        "admin",
+        "server",
+        "strapi-admin.js",
+        "strapi-server.js"
+    ],
+    "exports": {
+        "./strapi-admin": "./strapi-admin.js",
+        "./strapi-server": "./strapi-server.js"
+    },
+    "scripts": {
+        "verify": "node -e \"require('./strapi-server.js'); console.log('strapi-server.js loaded');\""
+    },
+    "keywords": [
+        "strapi",
+        "strapi-plugin",
+        "strapi-marketplace",
+        "view-settings",
+        "core-store"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Govberg/strapi-plugin-view-settings-migrator.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Govberg/strapi-plugin-view-settings-migrator/issues"
+    },
+    "homepage": "https://github.com/Govberg/strapi-plugin-view-settings-migrator#readme",
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "@strapi/strapi": "^5.0.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "strapi": {
+        "name": "view-settings-migrator",
+        "displayName": "View Settings Migrator",
+        "description": "Export and import strapi_core_store_settings via the admin UI",
+        "kind": "plugin"
+    }
+}
