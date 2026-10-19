@@ -1,6 +1,6 @@
 {
     "name": "strapi-plugin-view-settings-migrator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Export and import strapi_core_store_settings records from the Strapi admin UI.",
     "license": "MIT",
     "author": "The 1916 Company",
